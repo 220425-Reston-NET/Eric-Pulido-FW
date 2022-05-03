@@ -1,11 +1,11 @@
 public class Menu
 {
-    private string _grain = "bread";
+    private string _grain = "Bread";
 
-    private string _dairy = "milk";
+    private string _dairy = "Milk";
 
-    private string _meat = "chicken";
+    private string _meat = "Bacon";
 
-    private string _dairy2 = "cheese";
+    private string _dairy2 = "Cheese";
 }
 

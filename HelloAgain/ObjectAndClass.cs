@@ -1,20 +1,14 @@
 //this is how you creta a class by using the class keyword
 //Public is just there to make the class available for everyone.
-public class Car
+public class Menu
 {
     //This is a field
     //its used to store information or used to define the current state of the object.
     //By default , fields should all be private
-    private string _color= "red";
-    private string _owner = "eric";
-
-    private int _fuel = 100;
-
-    private int _gallonPerMile = 5;
-
+   
     //This is a method
     //A way to represent behavior/function and it will create multiple lines of code.
-    public int TotalDistancePerFuel()
+    public int TotalDistancedotPerFuel()
     {
         Console.WriteLine("Current Fuel:" +_fuel);
         Console.WriteLine("Gallon Per Mile:" +_gallonPerMile);
