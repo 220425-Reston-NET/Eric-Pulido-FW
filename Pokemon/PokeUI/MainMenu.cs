@@ -17,6 +17,12 @@ namespace PokeUI
          if (userInput == "1")
          {
             //logic add pokemon
+            Console.Clear();
+            Pokemon pokeobj = new Pokemon();
+            Console.WriteLine("What is the name of the pokemon?");
+            pokeobj.Name = Console.ReadLine();
+            Console.WriteLine("What is the tyoe of the pokemon?");
+            pokeobj.Type = Console.ReadLine();
              return "AddPokemon";
          }
          else if (userInput == "0")
