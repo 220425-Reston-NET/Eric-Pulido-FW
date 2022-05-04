@@ -1,5 +1,6 @@
 
 clear
+#Variables
 total=0
 Milk=4
 Bread=3
@@ -9,11 +10,13 @@ Eggs=4
 greeting="Hello Customer welcome to my Store!"
 name=Eric
 
+#Greeting into store and ask user for name
 echo "$greeting"
 echo "What is your name?"
 read name
 clear
 
+#Loop will repeat the menu to the user and read users answer for products chosen
 repeat="true"
 while [ "$repeat" == "true" ]
 do
@@ -52,16 +55,19 @@ then
 echo "Eggs $Eggs"
 total=$(($total+$Eggs))
 
+#this elif will stop the loop
 elif [ "$answer" == "6" ]
 then
 repeat="false"
 echo "Thank You please come again!"
 
+#this elif will checkout and return the total price of products
 elif [ "$answer" == "7" ]
 then
 clear
 echo "This is the Total : $total"
 
+#this will run if user enters anything besides the menu options , ex . 8.
 else
 echo "Please enter a correct option"
 

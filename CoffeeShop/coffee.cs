@@ -69,7 +69,7 @@
 
         Console.ReadLine(); 
 
-        Console.WriteLine("Are a new custoner?"); 
+        Console.WriteLine("Are  you a new custoner?"); 
 
         Console.WriteLine("1. Yes"); 
 
@@ -123,7 +123,7 @@
 
         Console.WriteLine("2 - Mocha $" + _mochaPrice); 
 
-        Console.WriteLine("3 - Espresson $" + _EspressoPrice); 
+        Console.WriteLine("3 - Espresso $" + _espressoPrice); 
 
         Console.WriteLine("4 - Coffee $" + CoffeePrice); 
 
@@ -149,7 +149,7 @@
 
         { 
 
-            _totalPrice += _espressomPrice; 
+            _totalPrice += _espressoPrice; 
 
         } 
 
