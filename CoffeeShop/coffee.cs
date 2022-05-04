@@ -63,7 +63,7 @@
 
         Console.Clear(); 
 
-        Console.WriteLine("Hello,Welcome to my Store!"); 
+        Console.WriteLine("Hello,Welcome to my Coffee Shop!"); 
 
         Console.Writeline("What is your name?"); 
 
@@ -89,7 +89,7 @@
 
         { 
 
-            Console.WriteLine("Welcome back! Heres our menu"); 
+            Console.WriteLine("Welcome back!"); 
 
         } 
 
