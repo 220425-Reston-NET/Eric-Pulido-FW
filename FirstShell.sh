@@ -1,5 +1,6 @@
 
 clear
+
 #Variables
 total=0
 Milk=4

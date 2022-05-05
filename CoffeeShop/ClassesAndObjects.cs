@@ -7,5 +7,5 @@ public class Menu
 
     public int _mochaPrice = 4;
 
-    private
+    
 }
